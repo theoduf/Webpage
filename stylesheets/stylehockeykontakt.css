@@ -1,0 +1,147 @@
+<style>
+
+header			
+{ 
+background: #585858; 
+border-bottom: 2px solid #aaa;
+}
+header h1  	
+{ 
+color: white; 
+margin: 0 0 3px; 
+padding: 20px 18px 0; 
+background: #7f858a;  
+font: 30px Arial Black, sans-serif;
+border-bottom: 2px solid #ffffff;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7f858a;
+	font: 12px Arial Black, sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: gray;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #7f858a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: lightgray}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body {
+	background-image:url('../media/backgroundhockey.jpg');
+	background-color:ffffff;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size: 100% 100%;
+}
+div.transbox {
+    margin: auto;
+	top: 2px;
+	width:100%;
+    background-color: #eee;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+div.transbox h1 {
+	margin:2%;
+}
+div.transbox h2 {
+	font-size:25px;
+	margin: 5%;
+	margin-bottom:10px;
+	margin-top:10px;
+    font-weight: bold;
+    color: #000000;
+}
+.active {
+    background-color: #4CAF50;
+}
+table, th, td 
+{
+border: 1px solid black;
+border-collapse: collapse;
+padding-left: 5px;
+padding-right: 5px;
+padding: 5px;
+}
+img {
+	display: block;
+	float:left;
+    max-width: 100%;
+    height: auto;    
+	left: 0px;
+    top: 2px;
+	padding: 2px;
+	margin:auto;
+}
+
+div.transbox {
+	position: relative;
+    margin: auto;
+	width:40%;
+    background-color: lightgray;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+	float: center;
+}
+div.transbox p {
+    margin: 5%;
+	margin-bottom:10px;
+	margin-top:10px;
+    font-weight: bold;
+    color: #000000;
+}
+.nav { 
+    display: inline-block;
+}
+
+.center p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+</style>
