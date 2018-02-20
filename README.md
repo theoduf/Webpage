@@ -5,7 +5,8 @@ Also ALL PHP files are not included.
 
 ## Todo list:
 * Validate all pages
+	* Done with /index.html
 * Edit charset to utf-8
-* Clean code for unnecisarry lines (if any)
+* Clean code for unnecessary lines (if any)
 
-### Improve security in PHP files and eventially add them to repo!
+### Improve security in PHP files and eventually add them to repo!
