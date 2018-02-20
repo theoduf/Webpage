@@ -1,1 +1,4 @@
-# Public sourcefiles for webpage
+# Public sourcefiles for webpage: http://sandvegen.darktech.org
+### Warning!
+Some files are not public due to security issues and copyright issues. Because of this a clone of this repo will not look right.
+Also ALL PHP files are not included.
