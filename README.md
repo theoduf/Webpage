@@ -7,6 +7,7 @@ Also also Expect alot of commits, i do many small changes and push them to see t
 ## Todo list:
 * Validate all pages
 	* Done with /index.html
+	* Done with /Hockey/index.html
 * Edit charset to utf-8
 * Clean code for unnecessary lines (if any)
 
