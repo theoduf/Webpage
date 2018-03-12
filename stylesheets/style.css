@@ -13,9 +13,6 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
-
-<style>
-
 header			
 { 
 background: #333; 
@@ -128,5 +125,3 @@ div.transbox h2 {
 .active {
     background-color: #4CAF50;
 }
-
-</style>
