@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2018 Theodor Hoff <theodorhoff@hotmail.com>
  *
- * Permission to use, copy, modify, and/or distribute this software for any
+ * Permission to use, copy, modify, and or distribute this software for any
  * purpose with or without fee is hereby granted, provided that the above
  * copyright notice and this permission notice appear in all copies.
  *
@@ -13,6 +13,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
+
 <style>
 
 header			
@@ -21,8 +22,8 @@ background: #333;
 border-bottom: 2px solid #aaa;
 width: 100%;
 }
-header h1  	
-{ 
+
+header h1 { 
 color: white; 
 margin: 0 0 3px; 
 padding: 20px 18px 0; 
@@ -30,6 +31,7 @@ background: #333;
 font: 30px Arial Black, sans-serif;
 border-bottom: 2px solid #ffffff;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -88,7 +90,7 @@ li.dropdown {
 
 body {
 	background-image:url('../media/background.jpg');
-	background-color:ffffff;
+	background-color:white;
 	background-repeat:no-repeat;
 	background-position:center;
 	background-attachment:fixed;
@@ -126,4 +128,5 @@ div.transbox h2 {
 .active {
     background-color: #4CAF50;
 }
+
 </style>
