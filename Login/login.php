@@ -14,7 +14,8 @@ $password=$_POST['password'];
 
 				}else{
 
-							goto"/Login";
+							header("Location: /Login");
+							exit;
 							}
 	}else{
 			echo "<br>Connot be left empty!";
