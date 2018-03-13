@@ -18,6 +18,6 @@ $password=$_POST['password'];
 							exit;
 							}
 	}else{
-			echo "<br>Connot be left empty!";
+			echo "<br>Cannot be left empty!";
 			}
 ?>
