@@ -101,7 +101,7 @@ div.transbox {
     opacity: 0.8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
 	float: center;
-	valign: center;
+vertical-align: middle;
 	top:2px;
 }
 div.transbox p {
