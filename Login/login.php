@@ -10,7 +10,8 @@ $password=$_POST['password'];
  
 			if(($username==$usr) && ($password==$pwd) ){
 
-								echo '<br>login successfull';
+								header("Location: /");
+								exit;
 
 				}else{
 
